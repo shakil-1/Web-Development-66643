@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: linear-gradient(0deg, #ffdee9 0%, #b5fffc 100%);
+}
+
+.nav {
+  width: 100%;
+  height: 48px;
+  background: linear-gradient(90deg, #efd5ff 0%, #515ada 100%);
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  position: sticky;
+  top: 0;
+}
+
+.nav-links a {
+  display: inline-block;
+  padding: 13px 10px 13px 10px;
+  text-decoration: none;
+  color: #efefef;
+  font-size: 18px;
+}
+
+.nav .nav-links a:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+/* heading seciton */
+.heading-title {
+  text-align: center;
+  color: red;
+  background: linear-gradient(90deg, #f8ff00 0%, #3ad59f 100%);
+  transition: 0.5s;
+}
+
+.heading-title:hover {
+  color: aqua;
+}
+
+.banner-img {
+  width: 33%;
+  display: flex;
+  gap: 5px;
+}
+
+.peragraph {
+  background-color: #f7e4e717;
+  padding: 10px;
+  margin: 10px;
+  border: dotted 1px;
+}
+.imgHover {
+  transition: 0.6s;
+}
+.imgHover:hover {
+  box-sizing: border-box;
+  box-shadow: 3px 5px 1px 1px #24cf98;
+  
+}
+
+.box {
+  width: 320px;
+  border: 15px solid #ff00ff;
+  padding: 10px;
+  border-radius: 10px;
+  
+}
+
+.hover1 :hover {
+background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+}
+.hover2 :hover {
+  background-image: linear-gradient(45deg, #FBDA61 0%, #FF5ACD 100%);
+}
+.hover3 :hover {
+background-image: linear-gradient(225deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%);
+}
+.rapperbox {
+  display: flex;
+  justify-content: space-evenly;
+  background: radial-gradient(
+    circle,
+    rgba(238, 174, 202, 1) 0%,
+    rgba(148, 187, 233, 1) 100%
+  );
+  padding: 40px;
+}
